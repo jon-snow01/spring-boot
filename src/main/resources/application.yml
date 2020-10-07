@@ -1,0 +1,12 @@
+my:
+   greeting: Welcome to ${my.app}
+   app: Spring Config App
+
+listValues: one,two.three
+
+db:
+   connection: "{dbURL:'https://__',dbUserName:'fooUser',dbPassword:'fooPass'}"
+   host: 127.0.0.1
+   port: 1200
+
+spring.profiles.active: test
